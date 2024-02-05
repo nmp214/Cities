@@ -1,9 +1,16 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/makabiyg-webfont.ttf');
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
   text-align: center;
+  margin: 40px;
+  font-family: 'MyFont';
 }
 
 .content {
@@ -15,25 +22,30 @@ h1 {
 
 .cities-list {
   width: 28em;
+  margin-bottom: 30px;
 }
 
 .cities {
   direction: rtl;
+  margin: 0%;
+  padding: 0%;
 }
 
 .city {
-  border: 2px solid #000000;
+  border: 2px double #000000;
   list-style-type: none;
   cursor: pointer;
   min-height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  background-color: #FFF3D6;
 }
 
 .city-name {
   text-align: center;
   margin-bottom: 0px;
+  font-family: 'MyFont';
 }
 
 .description {
@@ -60,8 +72,6 @@ h1 {
 
 .map {
   width: 55em;
-  /* margin: 15px; */
-  margin-top: 50px;
 }
 
 #map {
@@ -84,6 +94,7 @@ h1 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: right;
   direction: rtl;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .title {
